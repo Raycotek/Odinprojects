@@ -1,7 +1,7 @@
 def caesar_cipher(input, n)
 
 	char_nums = [] 
-	cypher_nums	= [] 
+	cypher_nums = [] 
 
 	chars = input.downcase.split("")
 	chars.each {|char| char_nums<<char.ord} 
